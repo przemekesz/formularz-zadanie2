@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zapis na szkolenie</title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/przemekorn@gmail.com" method="post">
+        <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <label for="email">Mail:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="phone">Numer telefonu:</label><br>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="city">Miasto:</label><br>
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>   
+        </select><br><br>
+        <span>Płeć:</span>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">Mężczyzna</label>
+        <input type="radio" name="gender" id="famale" value="famale">
+        <label for="famale">Kobieta</label><br><br>
+        <input type="checkbox" name="agreement" id="agreement" value="agree">
+        <label for="agreement">Zgoda na przetwarzanie danych osobowych</label><br><br>
+        <label for="msg">Wiadomość:</label><br>
+        <textarea name="msg" id="msg" cols="22" rows="5"></textarea><br>
+        <input type="submit" value="Wyślij">
+
+    </form>
+
+</body>
+</html>
